@@ -1,8 +1,12 @@
-let titles_type = ["Dataset", "Survey", "Review", "Overview"];
-let titles_model = ["BERT", "GPT", "Transformer"];
-let titles_method = ["Pre-train", "Pretrain", "Prompt", "Self-Supervised"];
-let titles =  titles_model + titles_method + titles_type;
-let authors_array = ["Yann LeCun", "Geoffrey Hinton", "Yoshua Bengio"];
+// let titles_type = ["Dataset", "Survey", "Review", "Overview"];
+// let titles_model = ["BERT", "GPT", "Transformer"];
+// let titles_method = ["Pre-train", "Pretrain", "Prompt", "Self-Supervised"];
+let title_type = ["Dataset", "Survey", "Review", "Benchmark"]
+let key_words = ["LLM", "MLLM", "Language Model", "Multimodal", "Chain-of-Thought", "CoT", "Generation", "Editing", "GPT", "Diffusion", "VQA", "Agent"]
+
+let titles =  titles_type + key_words;
+
+let authors_array = ["Yu-Gang Jiang", "Xipeng Qiu","Qi Zhang", "Jun Zhu", "Wanxiang Che", "Zhiyuan Liu", "Pengfei Liu", "Jifeng Dai", "Yu Qiao", "Jie Tang"];
 
 let conferences = [
     // AI
