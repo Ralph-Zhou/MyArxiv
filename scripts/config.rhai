@@ -2,7 +2,7 @@
 // let titles_model = ["BERT", "GPT", "Transformer"];
 // let titles_method = ["Pre-train", "Pretrain", "Prompt", "Self-Supervised"];
 let titles_type = ["Dataset", "Survey", "Review", "Benchmark"];
-let key_words = ["LLM", "MLLM", "Language Model", "Multimodal", "Chain-of-Thought", "CoT", "Generation", "Editing", "GPT", "Diffusion", "VQA", "Agent"];
+let key_words = ["LLM", "MLLM", "Large Language Model", "Vision-Language Model", "Multimodal", "Chain-of-Thought", "CoT", "Generation", "Editing", "GPT", "Diffusion", "VQA", "Agent", "Reasoning", "Image"];
 
 let titles =  titles_type + key_words;
 
